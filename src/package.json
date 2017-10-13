@@ -1,0 +1,28 @@
+{
+  "name": "elm-angular-lib",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlameerDev/alameerLib"
+  },
+  "author": {
+    "name": "abdulmajeed alameer",
+    "email": "alameer@outlook.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlameerDev/alameerLib/issues"
+  },
+  "main": "elm-angular-lib.umd.js",
+  "module": "elm-angular-lib.js",
+  "jsnext:main": "elm-angular-lib.js",
+  "typings": "elm-angular-lib.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}

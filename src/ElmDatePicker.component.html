@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-sm-5">
+        <select [(ngModel)]="dateType" (change)="onDatetypeChange($event.target.value)" class="form-control">     
+        <option value="UmmAlQura">هجري</option>
+        <option value="Gregorian">ميلادي</option>
+    </select>
+    </div>
+    <div class="col-sm-7">
+        <div class="input-icon">
+            <input id="hijri-calendar" pInputText #hc [name]="name" [value]="value" [placeholder]="placeholder" class="form-control datepicker-in"
+                [class.input-has-error]="hasError" [style.width.px]="width" type="text" (change)="onDateChange()">
+            <i class="fa fa-calendar"></i>
+        </div>
+    </div>
+</div>
